@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Chunmeista">
+    <title>iPTools</title>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        IP Converter
+        <br>
+        Decimal
+        <br>
+        <input class="text ip_seg" value="" name="ip_seg1" maxlength="3">
+        <input class="text ip_seg" value="" name="ip_seg2" maxlength="3">
+        <input class="text ip_seg" value="" name="ip_seg3" maxlength="3">
+        <input class="text ip_seg" value="" name="ip_seg4" maxlength="3">
+        <button id="to_binary" type="submit" onclick="ip_to_bin()">to Binary</button>
+        <br>
+        Binary
+        <br>
+        <input class="text bin_seg" value="" name="bin_seg1" maxlength="8">
+        <input class="text bin_seg" value="" name="bin_seg2" maxlength="8">
+        <input class="text bin_seg" value="" name="bin_seg3" maxlength="8">
+        <input class="text bin_seg" value="" name="bin_seg4" maxlength="8">
+        <button id="to_decimal" type="submit" onclick="bin_to_ip()">to Decimal</button>
+        <br>
+        <br>
+        <button type="submit" onclick="clear_all()">CLEAR ALL</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="decbin.js"></script>
+</body>
+</html>

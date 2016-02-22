@@ -1,0 +1,32 @@
+/**
+ * Created by Chunmeista on 2/11/2016.
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+body {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+.container {
+    padding: 40px;
+}
+
+input {
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Inconsolata", sans-serif;
+
+    text-align: center;
+
+    //background-color: #ff9495;
+}
+
+button {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
